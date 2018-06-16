@@ -31,7 +31,7 @@ class YLEmojiRatingViewViewModelTests: XCTestCase {
                                                    submitButtonText: submitButtonText)
         
         XCTAssertEqual(appStoreLink, viewModel.appStoreLink)
-        XCTAssertEqual(emailLink, viewModel.email)
+        XCTAssertEqual(emailLink, viewModel.emailLink)
         XCTAssertEqual(title, viewModel.title)
         XCTAssertEqual(chosenStar, viewModel.chosenStar)
         XCTAssertEqual(description, viewModel.description)

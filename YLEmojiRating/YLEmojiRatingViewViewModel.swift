@@ -17,7 +17,7 @@ public enum Stars: Int {
 
 public class YLEmojiRatingViewViewModel {
     var appStoreLink: String
-    var email: String
+    var emailLink: String
     var chosenStar: Stars
     
     var title: String
@@ -33,7 +33,7 @@ public class YLEmojiRatingViewViewModel {
                 cancelButtonText: String = "Cancel",
                 submitButtonText: String = "Submit") {
         self.appStoreLink = "https://itunes.apple.com/app/id\(appStoreID)?action=write-review"
-        self.email = "mailto:\(email)"
+        self.emailLink = "mailto:\(email)"
         self.chosenStar = chosenStar
         self.title = title
         self.description = description

@@ -64,7 +64,7 @@ public class YLEmojiRatingViewController: UIViewController {
     // MARK: Email
     
     private func openEmail() {
-        if let emailLink = viewModel?.email, let url = URL(string: emailLink), UIApplication.shared.canOpenURL(url) {
+        if let emailLink = viewModel?.emailLink, let url = URL(string: emailLink), UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url)
         }
     }
