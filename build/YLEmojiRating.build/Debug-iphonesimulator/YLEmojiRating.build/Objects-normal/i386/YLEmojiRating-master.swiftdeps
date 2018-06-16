@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "3f31fb34a1fb6f86ea70de626557c1fb"
+build_time: [1529004794, 519822000]
+inputs:
+  "/Users/yasminlindholm/Desktop/YLEmojiRating/YLEmojiRating/YLEmojiRatingView.swift": [1528942412, 0]

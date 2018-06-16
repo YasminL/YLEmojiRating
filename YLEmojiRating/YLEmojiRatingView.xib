@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YLEmojiRatingView" customModule="YLEmojiRating" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="8FY-LR-zhr" id="N9P-DJ-EPw"/>
+                <outlet property="descriptionLabel" destination="GsS-Bp-c2X" id="Wf8-YB-OS3"/>
+                <outlet property="submitButton" destination="15s-86-CZJ" id="cgn-Hh-Du6"/>
+                <outlet property="titleLabel" destination="8Q3-UJ-N7V" id="gfa-UO-Sd4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <visualEffectView opaque="NO" contentMode="scaleToFill" id="Jvg-Xh-HP0">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uOD-mL-Aca">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="230"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Fdp-fB-wk0">
+                        <rect key="frame" x="5" y="5" width="220" height="225"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Q3-UJ-N7V">
+                                <rect key="frame" x="0.0" y="0.0" width="220" height="50"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsS-Bp-c2X">
+                                <rect key="frame" x="0.0" y="55" width="220" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="78F-fa-gIO">
+                                <rect key="frame" x="0.0" y="95" width="220" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1m-LJ-ldr">
+                                        <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="D1m-LJ-ldr" secondAttribute="height" multiplier="1:1" id="S2C-GI-RRq"/>
+                                        </constraints>
+                                        <state key="normal" image="1star"/>
+                                        <connections>
+                                            <action selector="oneStarButtonTapped:" destination="-1" eventType="touchUpInside" id="371-82-P7R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVG-3x-2yq">
+                                        <rect key="frame" x="46" y="0.0" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="fVG-3x-2yq" secondAttribute="height" multiplier="1:1" id="AXa-0x-f87"/>
+                                        </constraints>
+                                        <state key="normal" image="2star"/>
+                                        <connections>
+                                            <action selector="twoStarButtonTapped:" destination="-1" eventType="touchUpInside" id="ogQ-j5-A36"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBa-ZD-L74">
+                                        <rect key="frame" x="92" y="0.0" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="gBa-ZD-L74" secondAttribute="height" multiplier="1:1" id="ETn-Pz-kU3"/>
+                                        </constraints>
+                                        <state key="normal" image="3star"/>
+                                        <connections>
+                                            <action selector="threeStarButtonTapped:" destination="-1" eventType="touchUpInside" id="x3Z-Co-wFa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nge-cE-zEj">
+                                        <rect key="frame" x="138" y="0.0" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Nge-cE-zEj" secondAttribute="height" multiplier="1:1" id="j8N-sD-nSS"/>
+                                        </constraints>
+                                        <state key="normal" image="4star"/>
+                                        <connections>
+                                            <action selector="fourStarButtonTapped:" destination="-1" eventType="touchUpInside" id="kap-ZA-2nL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH7-Tq-PQd">
+                                        <rect key="frame" x="184" y="0.0" width="36" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="CH7-Tq-PQd" secondAttribute="height" multiplier="1:1" id="mGg-fL-mgn"/>
+                                        </constraints>
+                                        <state key="normal" image="5star"/>
+                                        <connections>
+                                            <action selector="fiveStarButtonTapped:" destination="-1" eventType="touchUpInside" id="6ym-gW-P0q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="3L9-eE-ST2">
+                                <rect key="frame" x="0.0" y="136" width="220" height="89"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FY-LR-zhr">
+                                        <rect key="frame" x="0.0" y="59" width="110" height="30"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelButtonTapped:" destination="-1" eventType="touchUpInside" id="7Y7-WV-204"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15s-86-CZJ">
+                                        <rect key="frame" x="110" y="59" width="110" height="30"/>
+                                        <state key="normal" title="Submit">
+                                            <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="submitButtonTapped:" destination="-1" eventType="touchUpInside" id="xdy-gB-L29"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="78F-fa-gIO" firstAttribute="centerY" secondItem="Fdp-fB-wk0" secondAttribute="centerY" id="FEC-Jp-OFd"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Fdp-fB-wk0" secondAttribute="bottom" id="QAP-gn-7Ut"/>
+                    <constraint firstAttribute="trailing" secondItem="Fdp-fB-wk0" secondAttribute="trailing" constant="5" id="VS0-4t-7Eb"/>
+                    <constraint firstItem="Fdp-fB-wk0" firstAttribute="leading" secondItem="uOD-mL-Aca" secondAttribute="leading" constant="5" id="XXa-zg-R6z"/>
+                    <constraint firstItem="Fdp-fB-wk0" firstAttribute="top" secondItem="uOD-mL-Aca" secondAttribute="top" constant="5" id="zO5-69-IKl"/>
+                </constraints>
+            </view>
+            <blurEffect style="light"/>
+            <point key="canvasLocation" x="306" y="-15"/>
+        </visualEffectView>
+    </objects>
+    <resources>
+        <image name="1star" width="304" height="320"/>
+        <image name="2star" width="640" height="640"/>
+        <image name="3star" width="640" height="642"/>
+        <image name="4star" width="640" height="640"/>
+        <image name="5star" width="640" height="640"/>
+    </resources>
+</document>

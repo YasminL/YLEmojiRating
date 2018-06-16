@@ -1,0 +1,11 @@
+framework module YLEmojiRating {
+  umbrella header "YLEmojiRating.h"
+
+  export *
+  module * { export * }
+}
+
+module YLEmojiRating.Swift {
+    header "YLEmojiRating-Swift.h"
+    requires objc
+}

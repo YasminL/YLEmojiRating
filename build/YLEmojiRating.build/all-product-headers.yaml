@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yasminlindholm/Desktop/YLEmojiRating/build/Debug-iphonesimulator/YLEmojiRating.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YLEmojiRating-Swift.h",
+          'external-contents': "/Users/yasminlindholm/Desktop/YLEmojiRating/build/Debug-iphonesimulator/YLEmojiRating.framework/Headers/YLEmojiRating-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YLEmojiRating.h",
+          'external-contents': "/Users/yasminlindholm/Desktop/YLEmojiRating/YLEmojiRating/YLEmojiRating.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yasminlindholm/Desktop/YLEmojiRating/build/Debug-iphonesimulator/YLEmojiRating.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yasminlindholm/Desktop/YLEmojiRating/build/YLEmojiRating.build/Debug-iphonesimulator/YLEmojiRating.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
