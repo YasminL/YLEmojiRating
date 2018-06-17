@@ -11,7 +11,7 @@ public class YLEmojiRatingViewController: UIViewController {
     // MARK: Properties
     
     private var emojiRatingView: YLEmojiRatingView?
-    private var viewModel: YLEmojiRatingViewViewModel?
+    public var viewModel: YLEmojiRatingViewViewModel?
     
     // MARK: Life cycle
     
@@ -55,17 +55,21 @@ public class YLEmojiRatingViewController: UIViewController {
     
     // MARK: Appstore
     
-    private func openAppstore() {
+    public func openAppstore() {
         if let appstoreLink = viewModel?.appStoreLink, let url = URL(string: appstoreLink), UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.open(url)
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url)
+            }
         }
     }
     
     // MARK: Email
     
-    private func openEmail() {
+    public func openEmail() {
         if let emailLink = viewModel?.emailLink, let url = URL(string: emailLink), UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.open(url)
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url)
+            }
         }
     }
 }
