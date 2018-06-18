@@ -137,7 +137,7 @@
         </visualEffectView>
     </objects>
     <resources>
-        <image name="1star" width="304" height="320"/>
+        <image name="1star" width="608" height="641"/>
         <image name="2star" width="640" height="640"/>
         <image name="3star" width="640" height="642"/>
         <image name="4star" width="640" height="640"/>

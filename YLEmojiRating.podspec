@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YLEmojiRating"
-  s.version      = "0.1.0"
+  s.version      = "0.3.0"
   s.swift_version = "3.2"
   s.summary      = "Use YLEmojiRating to improve your Appstore rating."
 
@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+   s.license      = "LICENCE"
+  # s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+   s.resource  = "YLEmojiRating/Assets/*.*"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

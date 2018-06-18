@@ -61,12 +61,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9041914720D5BDCB00B51368 /* Resources */ = {
+		9041914720D5BDCB00B51368 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				90D250E620D1FDAA00FAC93B /* Assets.xcassets */,
+				90F252F620D19D4A0055A2A6 /* YLEmojiRatingView.xib */,
 			);
-			path = Resources;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		9041914920D5BE2C00B51368 /* Supporting Files */ = {
@@ -100,9 +101,8 @@
 			children = (
 				90F252EC20D19C6E0055A2A6 /* YLEmojiRating.h */,
 				9041914920D5BE2C00B51368 /* Supporting Files */,
-				9041914720D5BDCB00B51368 /* Resources */,
+				9041914720D5BDCB00B51368 /* Assets */,
 				90F252F420D19CAD0055A2A6 /* YLEmojiRatingView.swift */,
-				90F252F620D19D4A0055A2A6 /* YLEmojiRatingView.xib */,
 				9004A7C520D442D700684922 /* YLEmojiRatingViewController.swift */,
 				9026B17320D5860D00C0137F /* YLEmojiRatingViewViewModel.swift */,
 			);
