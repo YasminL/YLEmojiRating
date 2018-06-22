@@ -1,55 +1,51 @@
 //
-//  YLEmojiRatingViewController.swift
-//  YLEmojiRating
+//  EmojiRatingViewController.swift
+//  Cloudy
 //
-//  Created by Yasmin Lindholm on 6/15/18.
-//  Copyright © 2018 Yasmin Lindholm. All rights reserved.
+//  Created by Yasmin Lindholm on 6/22/18.
+//  Copyright © 2018 Cocoacasts. All rights reserved.
 //
 
-public class YLEmojiRatingViewController: UIViewController {
+import UIKit
+
+public class EmojiRatingViewController: UIViewController {
     
     // MARK: Properties
     
-    private var emojiRatingView: YLEmojiRatingView?
-    public var viewModel: YLEmojiRatingViewViewModel?
+    private var emojiRatingView: EmojiRatingView?
     
-    // MARK: Life cycle
-    
-    public init(viewModel: YLEmojiRatingViewViewModel) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-        
-        setupPresentationStyle()
+    var viewModel: EmojiRatingViewViewModel? {
+        didSet {
+            updateView()
+        }
     }
-    
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+
+    // MARK: Life Cycle
     
     override public func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
     
-    // MARK: Setup
-    
-    private func setupPresentationStyle() {
-        modalPresentationStyle = .overCurrentContext
-    }
+    // MARK: View Setup
     
     private func setupView() {
-        emojiRatingView = YLEmojiRatingView(frame: view.bounds)
+        emojiRatingView = EmojiRatingView(frame: view.bounds)
         
         if let emojiRatingView = emojiRatingView {
             emojiRatingView.delegate = self
             view.addSubview(emojiRatingView)
-            
-            if let viewModel = viewModel {
-                emojiRatingView.set(title: viewModel.title)
-                emojiRatingView.set(description: viewModel.description)
-                emojiRatingView.set(cancelButtonText: viewModel.cancelButtonText)
-                emojiRatingView.set(submitButtonText: viewModel.submitButtonText)
-            }
+        }
+    }
+    
+    // MARK: View Updates
+    
+    private func updateView() {
+        if let emojiRatingView = emojiRatingView, let viewModel = viewModel {
+            emojiRatingView.set(title: viewModel.title)
+            emojiRatingView.set(description: viewModel.description)
+            emojiRatingView.set(cancelButtonText: viewModel.cancelButtonText)
+            emojiRatingView.set(submitButtonText: viewModel.submitButtonText)
         }
     }
     
@@ -74,7 +70,7 @@ public class YLEmojiRatingViewController: UIViewController {
     }
 }
 
-extension YLEmojiRatingViewController: YLEmojiRatingViewDelegate {
+extension EmojiRatingViewController: EmojiRatingViewDelegate {
     
     func cancelButtonTapped() {
         dismiss(animated: true, completion: nil)

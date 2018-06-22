@@ -1,6 +1,6 @@
 //
-//  YLEmojiRatingViewModel.swift
-//  YLEmojiRating
+//  EmojiRatingViewModel.swift
+//  EmojiRating
 //
 //  Created by Yasmin Lindholm on 6/16/18.
 //  Copyright © 2018 Yasmin Lindholm. All rights reserved.
@@ -15,7 +15,7 @@ public enum Stars: Int {
     case fiveStars
 }
 
-public class YLEmojiRatingViewViewModel {
+public class EmojiRatingViewViewModel {
     var appStoreLink: String
     var emailLink: String
     var chosenStar: Stars
@@ -25,7 +25,7 @@ public class YLEmojiRatingViewViewModel {
     var cancelButtonText: String
     var submitButtonText: String
     
-    public init(appStoreID: String,
+     public init(appStoreID: String,
                 email: String,
                 chosenStar: Stars = .none,
                 title: String = "",

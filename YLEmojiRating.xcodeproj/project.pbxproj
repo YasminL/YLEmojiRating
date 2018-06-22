@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9004A7C620D442D700684922 /* YLEmojiRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004A7C520D442D700684922 /* YLEmojiRatingViewController.swift */; };
-		9026B17420D5860D00C0137F /* YLEmojiRatingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9026B17320D5860D00C0137F /* YLEmojiRatingViewViewModel.swift */; };
-		90D250E720D1FDAA00FAC93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D250E620D1FDAA00FAC93B /* Assets.xcassets */; };
+		90D95E8720DD344700AA760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D95E8520DD344700AA760E /* Assets.xcassets */; };
+		90D95E8820DD344700AA760E /* YLEmojiRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D95E8620DD344700AA760E /* YLEmojiRatingView.xib */; };
+		90D95E8C20DD345300AA760E /* EmojiRatingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */; };
+		90D95E8D20DD345300AA760E /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8A20DD345300AA760E /* EmojiRatingView.swift */; };
+		90D95E8E20DD345300AA760E /* EmojiRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */; };
+		90D95E8F20DD34B800AA760E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90F252ED20D19C6E0055A2A6 /* Info.plist */; };
+		90D95E9820DD356800AA760E /* YLEmojiRatingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E9720DD356800AA760E /* YLEmojiRatingViewModelTests.swift */; };
+		90D95E9A20DD356800AA760E /* YLEmojiRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */; };
 		90F252EE20D19C6E0055A2A6 /* YLEmojiRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F252EC20D19C6E0055A2A6 /* YLEmojiRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90F252F520D19CAD0055A2A6 /* YLEmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F252F420D19CAD0055A2A6 /* YLEmojiRatingView.swift */; };
-		90F252F720D19D4A0055A2A6 /* YLEmojiRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90F252F620D19D4A0055A2A6 /* YLEmojiRatingView.xib */; };
-		90FE826B20D7091800C81363 /* YLEmojiRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */; };
-		90FE827120D7093400C81363 /* YLEmojiRatingViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90536C1520D5B77A00755BFD /* YLEmojiRatingViewViewModelTests.swift */; };
-		90FE827320D7096200C81363 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90FE827220D7096200C81363 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90FE826C20D7091800C81363 /* PBXContainerItemProxy */ = {
+		90D95E9B20DD356800AA760E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90F252E020D19C6E0055A2A6 /* Project object */;
 			proxyType = 1;
@@ -29,32 +29,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9004A7C520D442D700684922 /* YLEmojiRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingViewController.swift; sourceTree = "<group>"; };
-		9026B17320D5860D00C0137F /* YLEmojiRatingViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingViewViewModel.swift; sourceTree = "<group>"; };
-		90536C1520D5B77A00755BFD /* YLEmojiRatingViewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingViewViewModelTests.swift; sourceTree = "<group>"; };
-		90D250E620D1FDAA00FAC93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D95E8520DD344700AA760E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D95E8620DD344700AA760E /* YLEmojiRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLEmojiRatingView.xib; sourceTree = "<group>"; };
+		90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingViewViewModel.swift; sourceTree = "<group>"; };
+		90D95E8A20DD345300AA760E /* EmojiRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingViewController.swift; sourceTree = "<group>"; };
+		90D95E9520DD356800AA760E /* YLEmojiRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLEmojiRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D95E9720DD356800AA760E /* YLEmojiRatingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingViewModelTests.swift; sourceTree = "<group>"; };
+		90D95E9920DD356800AA760E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLEmojiRating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F252EC20D19C6E0055A2A6 /* YLEmojiRating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLEmojiRating.h; sourceTree = "<group>"; };
 		90F252ED20D19C6E0055A2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90F252F420D19CAD0055A2A6 /* YLEmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingView.swift; sourceTree = "<group>"; };
-		90F252F620D19D4A0055A2A6 /* YLEmojiRatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLEmojiRatingView.xib; sourceTree = "<group>"; };
-		90FE826620D7091800C81363 /* YLEmojiRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLEmojiRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FE827220D7096200C81363 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		90D95E9220DD356800AA760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D95E9A20DD356800AA760E /* YLEmojiRating.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F252E520D19C6E0055A2A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90FE826320D7091800C81363 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90FE826B20D7091800C81363 /* YLEmojiRating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +65,8 @@
 		9041914720D5BDCB00B51368 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				90D250E620D1FDAA00FAC93B /* Assets.xcassets */,
-				90F252F620D19D4A0055A2A6 /* YLEmojiRatingView.xib */,
+				90D95E8520DD344700AA760E /* Assets.xcassets */,
+				90D95E8620DD344700AA760E /* YLEmojiRatingView.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -78,11 +79,24 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		90D95E9620DD356800AA760E /* YLEmojiRatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D95E9720DD356800AA760E /* YLEmojiRatingViewModelTests.swift */,
+				90D95E9920DD356800AA760E /* Info.plist */,
+			);
+			path = YLEmojiRatingTests;
+			sourceTree = "<group>";
+		};
 		90F252DF20D19C6E0055A2A6 = {
 			isa = PBXGroup;
 			children = (
 				90F252EB20D19C6E0055A2A6 /* YLEmojiRating */,
+				90D95E8A20DD345300AA760E /* EmojiRatingView.swift */,
+				90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */,
+				90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */,
 				90FE826720D7091800C81363 /* YLEmojiRatingTests */,
+				90D95E9620DD356800AA760E /* YLEmojiRatingTests */,
 				90F252EA20D19C6E0055A2A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */,
-				90FE826620D7091800C81363 /* YLEmojiRatingTests.xctest */,
+				90D95E9520DD356800AA760E /* YLEmojiRatingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +116,6 @@
 				90F252EC20D19C6E0055A2A6 /* YLEmojiRating.h */,
 				9041914920D5BE2C00B51368 /* Supporting Files */,
 				9041914720D5BDCB00B51368 /* Assets */,
-				90F252F420D19CAD0055A2A6 /* YLEmojiRatingView.swift */,
-				9004A7C520D442D700684922 /* YLEmojiRatingViewController.swift */,
-				9026B17320D5860D00C0137F /* YLEmojiRatingViewViewModel.swift */,
 			);
 			path = YLEmojiRating;
 			sourceTree = "<group>";
@@ -112,7 +123,6 @@
 		90FE826720D7091800C81363 /* YLEmojiRatingTests */ = {
 			isa = PBXGroup;
 			children = (
-				90536C1520D5B77A00755BFD /* YLEmojiRatingViewViewModelTests.swift */,
 				90FE827220D7096200C81363 /* Info.plist */,
 			);
 			path = YLEmojiRatingTests;
@@ -132,6 +142,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		90D95E9420DD356800AA760E /* YLEmojiRatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D95E9D20DD356800AA760E /* Build configuration list for PBXNativeTarget "YLEmojiRatingTests" */;
+			buildPhases = (
+				90D95E9120DD356800AA760E /* Sources */,
+				90D95E9220DD356800AA760E /* Frameworks */,
+				90D95E9320DD356800AA760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D95E9C20DD356800AA760E /* PBXTargetDependency */,
+			);
+			name = YLEmojiRatingTests;
+			productName = YLEmojiRatingTests;
+			productReference = 90D95E9520DD356800AA760E /* YLEmojiRatingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		90F252E820D19C6E0055A2A6 /* YLEmojiRating */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90F252F120D19C6E0055A2A6 /* Build configuration list for PBXNativeTarget "YLEmojiRating" */;
@@ -150,40 +178,22 @@
 			productReference = 90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90FE826520D7091800C81363 /* YLEmojiRatingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90FE826E20D7091800C81363 /* Build configuration list for PBXNativeTarget "YLEmojiRatingTests" */;
-			buildPhases = (
-				90FE826220D7091800C81363 /* Sources */,
-				90FE826320D7091800C81363 /* Frameworks */,
-				90FE826420D7091800C81363 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90FE826D20D7091800C81363 /* PBXTargetDependency */,
-			);
-			name = YLEmojiRatingTests;
-			productName = YLEmojiRatingTests;
-			productReference = 90FE826620D7091800C81363 /* YLEmojiRatingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		90F252E020D19C6E0055A2A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Yasmin Lindholm";
 				TargetAttributes = {
+					90D95E9420DD356800AA760E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					90F252E820D19C6E0055A2A6 = {
 						CreatedOnToolsVersion = 9.3.1;
-						LastSwiftMigration = 0930;
-					};
-					90FE826520D7091800C81363 = {
-						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -200,61 +210,99 @@
 			projectRoot = "";
 			targets = (
 				90F252E820D19C6E0055A2A6 /* YLEmojiRating */,
-				90FE826520D7091800C81363 /* YLEmojiRatingTests */,
+				90D95E9420DD356800AA760E /* YLEmojiRatingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		90D95E9320DD356800AA760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F252E720D19C6E0055A2A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D250E720D1FDAA00FAC93B /* Assets.xcassets in Resources */,
-				90F252F720D19D4A0055A2A6 /* YLEmojiRatingView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90FE826420D7091800C81363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90FE827320D7096200C81363 /* Info.plist in Resources */,
+				90D95E8720DD344700AA760E /* Assets.xcassets in Resources */,
+				90D95E8820DD344700AA760E /* YLEmojiRatingView.xib in Resources */,
+				90D95E8F20DD34B800AA760E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		90D95E9120DD356800AA760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D95E9820DD356800AA760E /* YLEmojiRatingViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F252E420D19C6E0055A2A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F252F520D19CAD0055A2A6 /* YLEmojiRatingView.swift in Sources */,
-				9026B17420D5860D00C0137F /* YLEmojiRatingViewViewModel.swift in Sources */,
-				9004A7C620D442D700684922 /* YLEmojiRatingViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90FE826220D7091800C81363 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90FE827120D7093400C81363 /* YLEmojiRatingViewViewModelTests.swift in Sources */,
+				90D95E8D20DD345300AA760E /* EmojiRatingView.swift in Sources */,
+				90D95E8C20DD345300AA760E /* EmojiRatingViewViewModel.swift in Sources */,
+				90D95E8E20DD345300AA760E /* EmojiRatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		90FE826D20D7091800C81363 /* PBXTargetDependency */ = {
+		90D95E9C20DD356800AA760E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 90F252E820D19C6E0055A2A6 /* YLEmojiRating */;
-			targetProxy = 90FE826C20D7091800C81363 /* PBXContainerItemProxy */;
+			targetProxy = 90D95E9B20DD356800AA760E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		90D95E9E20DD356800AA760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY3MS4KUVS;
+				INFOPLIST_FILE = YLEmojiRatingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasmin.YLEmojiRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D95E9F20DD356800AA760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY3MS4KUVS;
+				INFOPLIST_FILE = YLEmojiRatingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasmin.YLEmojiRatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		90F252EF20D19C6E0055A2A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,47 +476,18 @@
 			};
 			name = Release;
 		};
-		90FE826F20D7091800C81363 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY3MS4KUVS;
-				INFOPLIST_FILE = YLEmojiRatingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasmin.YLEmojiRatingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		90FE827020D7091800C81363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY3MS4KUVS;
-				INFOPLIST_FILE = YLEmojiRatingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasmin.YLEmojiRatingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		90D95E9D20DD356800AA760E /* Build configuration list for PBXNativeTarget "YLEmojiRatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D95E9E20DD356800AA760E /* Debug */,
+				90D95E9F20DD356800AA760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90F252E320D19C6E0055A2A6 /* Build configuration list for PBXProject "YLEmojiRating" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -483,15 +502,6 @@
 			buildConfigurations = (
 				90F252F220D19C6E0055A2A6 /* Debug */,
 				90F252F320D19C6E0055A2A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90FE826E20D7091800C81363 /* Build configuration list for PBXNativeTarget "YLEmojiRatingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90FE826F20D7091800C81363 /* Debug */,
-				90FE827020D7091800C81363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
