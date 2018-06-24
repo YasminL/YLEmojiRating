@@ -14,7 +14,7 @@ public class EmojiRatingViewController: UIViewController {
     
     private var emojiRatingView: EmojiRatingView?
     
-    var viewModel: EmojiRatingViewViewModel? {
+    public var viewModel: EmojiRatingViewViewModel? {
         didSet {
             updateView()
         }
