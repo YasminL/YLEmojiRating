@@ -7,6 +7,23 @@ YLEmojiRating shows a view where the users rates the app in emojis. The emojis ð
 
 ![img_6907](https://user-images.githubusercontent.com/5594658/41854039-38da5bc2-785d-11e8-9fc6-96c6eadb7d27.PNG)
 
+## Requirements
+Minimum iOS deployment target of 10.0 or higher
+
+## Installation
+
+[Cocoapods](https://guides.cocoapods.org/using/using-cocoapods) is the easiest way to get started, add the following to your podfile:
+
+```
+pod 'YLEmojiRating'
+```
+
+Go to your podfile directory and run the following command:
+
+```
+pod install
+```
+
 ## Usage
 1. Create an instance of the ViewModel:
 
