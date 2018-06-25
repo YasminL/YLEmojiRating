@@ -5,11 +5,14 @@ Use YLEmojiRating to improve your Appstore rating (with a fun twist!).
 ## How it works
 YLEmojiRating shows a view where the users rates the app in emojis. The emojis 😱😨 and 😐 represents 1-3 stars and will redirect the user to the mail client to leave feedback. The emojis 🙂 and 😀 will redirect the user to Appstore to leave a review.
 
+![img_6907](https://user-images.githubusercontent.com/5594658/41854039-38da5bc2-785d-11e8-9fc6-96c6eadb7d27.PNG)
+
 ## Usage
 1. Create an instance of the ViewModel:
 
 ```
-let viewModel = EmojiRatingViewViewModel(appStoreID: "the ID",
+let viewModel = EmojiRatingViewViewModel(
+appStoreID: "the ID",
 email: "your email",
 chosenStar: .none,
 title: "CoffeMaker",
