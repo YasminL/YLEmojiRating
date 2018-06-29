@@ -4,9 +4,9 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,13 +36,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsS-Bp-c2X">
-                                <rect key="frame" x="0.0" y="55" width="220" height="35"/>
+                                <rect key="frame" x="0.0" y="55" width="220" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="78F-fa-gIO">
-                                <rect key="frame" x="0.0" y="95" width="220" height="36"/>
+                                <rect key="frame" x="0.0" y="117" width="220" height="36"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1m-LJ-ldr">
                                         <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -97,10 +97,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="3L9-eE-ST2">
-                                <rect key="frame" x="0.0" y="136" width="220" height="89"/>
+                                <rect key="frame" x="0.0" y="158" width="220" height="67"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FY-LR-zhr">
-                                        <rect key="frame" x="0.0" y="59" width="110" height="30"/>
+                                        <rect key="frame" x="0.0" y="37" width="110" height="30"/>
                                         <state key="normal" title="Cancel">
                                             <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -109,7 +109,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15s-86-CZJ">
-                                        <rect key="frame" x="110" y="59" width="110" height="30"/>
+                                        <rect key="frame" x="110" y="37" width="110" height="30"/>
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -121,7 +121,7 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="78F-fa-gIO" firstAttribute="centerY" secondItem="Fdp-fB-wk0" secondAttribute="centerY" id="FEC-Jp-OFd"/>
+                            <constraint firstItem="78F-fa-gIO" firstAttribute="centerY" secondItem="Fdp-fB-wk0" secondAttribute="centerY" multiplier="1.2" id="FEC-Jp-OFd"/>
                         </constraints>
                     </stackView>
                 </subviews>
