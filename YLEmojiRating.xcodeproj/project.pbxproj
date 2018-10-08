@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905F7A74216BEB2800FC7A73 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 905F7A73216BEB2800FC7A73 /* Classes */; };
 		90D95E8720DD344700AA760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D95E8520DD344700AA760E /* Assets.xcassets */; };
 		90D95E8820DD344700AA760E /* YLEmojiRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D95E8620DD344700AA760E /* YLEmojiRatingView.xib */; };
-		90D95E8C20DD345300AA760E /* EmojiRatingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */; };
-		90D95E8D20DD345300AA760E /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8A20DD345300AA760E /* EmojiRatingView.swift */; };
-		90D95E8E20DD345300AA760E /* EmojiRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */; };
 		90D95E8F20DD34B800AA760E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90F252ED20D19C6E0055A2A6 /* Info.plist */; };
 		90D95E9820DD356800AA760E /* YLEmojiRatingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D95E9720DD356800AA760E /* YLEmojiRatingViewModelTests.swift */; };
 		90D95E9A20DD356800AA760E /* YLEmojiRating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F252E920D19C6E0055A2A6 /* YLEmojiRating.framework */; };
@@ -29,11 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		905F7A73216BEB2800FC7A73 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		90D95E8520DD344700AA760E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90D95E8620DD344700AA760E /* YLEmojiRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLEmojiRatingView.xib; sourceTree = "<group>"; };
-		90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingViewViewModel.swift; sourceTree = "<group>"; };
-		90D95E8A20DD345300AA760E /* EmojiRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
-		90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRatingViewController.swift; sourceTree = "<group>"; };
 		90D95E9520DD356800AA760E /* YLEmojiRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLEmojiRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D95E9720DD356800AA760E /* YLEmojiRatingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLEmojiRatingViewModelTests.swift; sourceTree = "<group>"; };
 		90D95E9920DD356800AA760E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,9 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				90F252EB20D19C6E0055A2A6 /* YLEmojiRating */,
-				90D95E8A20DD345300AA760E /* EmojiRatingView.swift */,
-				90D95E8B20DD345300AA760E /* EmojiRatingViewController.swift */,
-				90D95E8920DD345300AA760E /* EmojiRatingViewViewModel.swift */,
 				90FE826720D7091800C81363 /* YLEmojiRatingTests */,
 				90D95E9620DD356800AA760E /* YLEmojiRatingTests */,
 				90F252EA20D19C6E0055A2A6 /* Products */,
@@ -116,6 +109,7 @@
 				90F252EC20D19C6E0055A2A6 /* YLEmojiRating.h */,
 				9041914920D5BE2C00B51368 /* Supporting Files */,
 				9041914720D5BDCB00B51368 /* Assets */,
+				905F7A73216BEB2800FC7A73 /* Classes */,
 			);
 			path = YLEmojiRating;
 			sourceTree = "<group>";
@@ -228,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D95E8720DD344700AA760E /* Assets.xcassets in Resources */,
+				905F7A74216BEB2800FC7A73 /* Classes in Resources */,
 				90D95E8820DD344700AA760E /* YLEmojiRatingView.xib in Resources */,
 				90D95E8F20DD34B800AA760E /* Info.plist in Resources */,
 			);
@@ -248,9 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D95E8D20DD345300AA760E /* EmojiRatingView.swift in Sources */,
-				90D95E8C20DD345300AA760E /* EmojiRatingViewViewModel.swift in Sources */,
-				90D95E8E20DD345300AA760E /* EmojiRatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
